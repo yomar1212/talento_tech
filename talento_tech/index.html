@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prueba 2025</title>
+    <style>
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgba(132, 0, 255, 0.76);
+            size: 15px;
+        }
+        centrar{
+            text-align: center;
+        }
+    </style>
+    
+     <style type="text/css">
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+        }
+        h1{
+            color: red;
+        }
+        ul{
+            list-style-type: upper-roman;
+            margin-left: 10px;
+        }
+        table{
+            background-color: darkgray;
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th td{
+            border: 1px solid #ddd;
+            padding: 6px;
+        }
+        th{
+            background-color: #d4d1d0;
+            text-align: center;
+        }
+        td{
+            text-align: center;
+        }
+        p{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color:black;
+        }
+        footer{
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+    <style type="text/css">
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container{
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 28px;
+            background-color: #fff;
+            border: radius 8%;
+            box-shadow: 0 0 10px rgb(0, 0, 0, 1);
+
+        }
+         h1{
+            text-align: center;
+            color: #333;
+        }
+        label{
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+        input, textarea, select{
+            width: 100%;
+            padding-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px; 
+        }
+        input[type="sudmit"]{
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="sudmit"]:hover{
+        background-color: greenyellow;
+        }
+          
+    </style>
+</head>
+<body>
+    <h1><center>PRUEBA 2025 MAYO 9</center></h1>
+    <header title="listas y tablas">
+        <h1> Bienveniodos al aprendizaje de listas y tablas</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca de</a></li>
+                <li><a href="#contacto">Contactanos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="listas">
+        <h1> listas y tablas en html </h1>
+        <h2> lista de redes sociales </h2>
+        <ul>
+            <li> Instragram </li>
+            <li> Facebook </li>
+            <li> Twitter (x) </li>
+        </ul>
+    </section>
+    <section id="acerca">
+        <h2> Tabla de redes sociales </h2>
+        <table> 
+            <thead>
+                <tr>
+                    <th> Imagen </th>
+                    <th> Nombre red social</th>
+                    <th> Descripcion</th>
+                </tr>
+            </thead>
+            <tbody> 
+                <tr>
+                    <th><img src="imagenes/redes-sociales.jpg" width="30%" height="50%"></th>
+                    <td> Instragram </td>
+                    <td>
+                        <p align="justify">
+                            Instagram es una red social visual propiedad de Meta, principalmente utilizada para compartir fotos y videos, con la posibilidad de aplicar efectos y filtros.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <th><img src="imagenes/facebook-pila-logos-3d.jpg.webp" width="30%" height="50%"></th>
+                    <td> Facebook </td>
+                    <td>
+                        <p align="justify">
+                            Facebook es una red social diseñada para conectar a personas, facilitando la interacción entre amigos, familiares, compañeros de trabajo y personas con intereses comunes. Con más de 2.800 millones de usuarios activos mensuales hasta 2023, sigue siendo una de las plataformas sociales más grandes del mundo. 
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <th><img src="imagenes/alexander-shatov-SXfwXS0jWNg-unsplash.jpg" width="30%" height="50%"></th>
+                    <td> Twitter (x)</td>
+                    <td>
+                        <p align="justify">
+                            es una red social de microblogging que permite a los usuarios publicar mensajes cortos, conocidos como tweets (ahora llamados posts), y conectarse con otros a través de estos.       
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+    <section>
+        <section id="Contactos">
+            <h2> Seccion de contacto </h2>
+            <p>
+                Si tienes dudas y deseas recibirlas por favor conectar al whatsapp +57 345878995
+            </p>
+            <footer>
+                Autor: Yomar Portocarrero Ruiz. 2025. mi primera pagina
+            </footer>
+        </section>
+    </section>
+    <hr>
+    <div class="container">
+        <h1>formulario de contacto</h1>
+        <form action="#" method="post">
+            <label for="nombre">nombre:</label>
+            <imput type="text"id="nombre" name="nombre"required>
+                <label for="email">correo electronico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="telefono">telefono:</label>
+                <input type="telefono" id="telefono" name="telefono" required>
+                <label for="mensaje">mensaje:</label>
+                <textarea name="mensaje" id="mensaje" rows="4"required></textarea>
+                <label for="pais"></label>
+                <select name="pais" id="pais" required>
+                    <option value="disabled select">selecione tu pais</option>
+                    <option value="es">españa</option>
+                    <option value="co">Colombia</option>
+                    <option value="mx">mexico</option>
+                    <option value="ar">argentina</option>
+                </select>
+                <input type="sudmit" value="enviar">
+
+
+
+        </form>
+    </div>
+    
+</body>
+</html>
